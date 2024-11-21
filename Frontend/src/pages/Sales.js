@@ -90,9 +90,9 @@ function Sales() {
                 <th className="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900">
                   Product Name
                 </th>
-                <th className="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900">
+                {/* <th className="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900">
                   Store Name
-                </th>
+                </th> */}
                 <th className="whitespace-nowrap px-4 py-2 text-left font-medium text-gray-900">
                   Stock Sold
                 </th>
@@ -112,9 +112,9 @@ function Sales() {
                     <td className="whitespace-nowrap px-4 py-2  text-gray-900">
                       {element.ProductID?.name}
                     </td>
-                    <td className="whitespace-nowrap px-4 py-2 text-gray-700">
+                    {/* <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                       {element.StoreID?.name}
-                    </td>
+                    </td> */}
                     <td className="whitespace-nowrap px-4 py-2 text-gray-700">
                       {element.StockSold}
                     </td>

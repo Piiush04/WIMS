@@ -6,7 +6,7 @@ const addSales = (req, res) => {
   const addSale = new Sales({
     userID: req.body.userID,
     ProductID: req.body.productID,
-    StoreID: req.body.storeID,
+    // StoreID: req.body.storeID,
     StockSold: req.body.stockSold,
     SaleDate: req.body.saleDate,
     TotalSaleAmount: req.body.totalSaleAmount,
@@ -28,7 +28,7 @@ const getSalesData = async (req, res) => {
   const findAllSalesData = await Sales.find({"userID": req.params.userID})
     .sort({ _id: -1 })
     .populate("ProductID")
-    .populate("StoreID"); // -1 for descending order
+    // .populate("StoreID"); // -1 for descending order
   res.json(findAllSalesData);
 };
 

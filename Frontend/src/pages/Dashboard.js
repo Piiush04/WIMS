@@ -134,7 +134,7 @@ function Dashboard() {
 
   return (
     <>
-      <div className="grid grid-cols-1 col-span-12 lg:col-span-10 gap-6 md:grid-cols-3 lg:grid-cols-4  p-4 ">
+      <div className="grid grid-cols-1 col-span-12 lg:col-span-10 gap-6 md:grid-cols-3 lg:grid-cols-3  p-4 ">
         <article className="flex flex-col gap-4 rounded-lg border  border-gray-100 bg-white p-6  ">
           <div className="inline-flex gap-2 self-end rounded bg-green-100 p-1 text-green-600">
             <svg
@@ -240,7 +240,7 @@ function Dashboard() {
             </p>
           </div>
         </article>
-        <article className="flex flex-col   gap-4 rounded-lg border border-gray-100 bg-white p-6 ">
+        {/* <article className="flex flex-col   gap-4 rounded-lg border border-gray-100 bg-white p-6 ">
           <div className="inline-flex gap-2 self-end rounded bg-red-100 p-1 text-red-600">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -260,7 +260,7 @@ function Dashboard() {
             <span className="text-xs font-medium"> 67.81% </span>
           </div>
 
-          <div>
+          {/* <div>
             <strong className="block text-sm font-medium text-gray-500">
               Total Stores
             </strong>
@@ -271,10 +271,10 @@ function Dashboard() {
                 {stores.length}{" "}
               </span>
 
-              {/* <span className="text-xs text-gray-500"> from 0 </span> */}
+              
             </p>
-          </div>
-        </article>
+          </div> 
+        </article> */}
         <div className="flex justify-around bg-white rounded-lg py-8 col-span-full justify-center">
           <div>
             <Chart

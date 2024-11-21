@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cors());
 
 // Store API
-app.use("/api/store", storeRoute);
+// app.use("/api/store", storeRoute);
 
 // Products API
 app.use("/api/product", productRoute);

@@ -71,22 +71,10 @@ function Login() {
         </div>
         <div className="w-full max-w-md space-y-8 p-10 rounded-lg">
           <div>
-            <img
-              className="mx-auto h-12 w-auto"
-              src={require("../assets/logo.png")}
-              alt="Your Company"
-            />
             <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
-              Signin to your account
+              Login
             </h2>
-            <p className="mt-2 text-center text-sm text-gray-600">
-              Or
-              <span
-                className="font-medium text-indigo-600 hover:text-indigo-500"
-              >
-                start your 14-day free trial
-              </span>
-            </p>
+            
           </div>
           <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
             {/* <input type="hidden" name="remember" defaultValue="true" /> */}
@@ -165,11 +153,10 @@ function Login() {
                 Sign in
               </button>
               <p className="mt-2 text-center text-sm text-gray-600">
-                Or{" "}
+                Don't have an account?
                 <span
                   className="font-medium text-indigo-600 hover:text-indigo-500"
                 >
-                  Don't Have an Account, Please{" "}
                   <Link to="/register"> Register now </Link>
                 </span>
               </p>

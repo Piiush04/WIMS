@@ -12,11 +12,11 @@ const SaleSchema = new mongoose.Schema(
       ref: "product",
       required: true,
     },
-    StoreID: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: "store",
-      required: true,
-    },
+    // StoreID: {
+    //   type: mongoose.Schema.Types.ObjectId,
+    //   ref: "store",
+    //   required: true,
+    // },
     StockSold: {
       type: Number,
       required: true,

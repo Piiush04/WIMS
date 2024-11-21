@@ -32,13 +32,8 @@ export default function Header() {
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
                       <div className="flex justify-center items-center gap-2">
-                        <img
-                          className="h-8 w-8"
-                          src={require("../assets/logo.png")}
-                          alt="Inventory Management System"
-                        />
                         <span className="font-bold text-white italic">
-                          Inventory Management
+                          WIMS
                         </span>
                       </div>
                     </div>

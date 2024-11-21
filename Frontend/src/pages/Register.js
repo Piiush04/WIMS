@@ -65,13 +65,8 @@ function Register() {
       <div className="grid grid-cols-1 sm:grid-cols-2 h-screen  items-center place-items-center">
         <div className="w-full max-w-md space-y-8  p-10 rounded-lg">
           <div>
-            <img
-              className="mx-auto h-12 w-auto"
-              src={require("../assets/logo.png")}
-              alt="Your Company"
-            />
             <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
-              Register your account
+              Register
             </h2>
           </div>
           <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
@@ -180,12 +175,11 @@ function Register() {
                 Sign up
               </button>
               <p className="mt-2 text-center text-sm text-gray-600">
-                Or{" "}
+                Already have an account?
                 <span
                   className="font-medium text-indigo-600 hover:text-indigo-500"
                 >
-                  Already Have an Account, Please
-                  <Link to="/login"> Signin now </Link>
+                  <Link to="/login"> Login </Link>
                 </span>
               </p>
             </div>

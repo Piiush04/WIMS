@@ -5,14 +5,14 @@ import { PlusIcon } from "@heroicons/react/24/outline";
 export default function AddSale({
   addSaleModalSetting,
   products,
-  stores,
+  // stores,
   handlePageUpdate,
   authContext
 }) {
   const [sale, setSale] = useState({
     userID: authContext.user,
     productID: "",
-    storeID: "",
+    // storeID: "",
     stockSold: "",
     saleDate: "",
     totalSaleAmount: "",
@@ -138,7 +138,7 @@ export default function AddSale({
                             />
                           </div>
 
-                          <div>
+                          {/* <div>
                             <label
                               htmlFor="storeID"
                               className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
@@ -162,7 +162,7 @@ export default function AddSale({
                                 );
                               })}
                             </select>
-                          </div>
+                          </div> */}
                           <div>
                             <label
                               htmlFor="totalSaleAmount"
